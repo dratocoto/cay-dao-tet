@@ -1,0 +1,4 @@
+# Cargo config for Windows cross-compilation
+# cargo-xwin will handle linker setup automatically
+[target.x86_64-pc-windows-msvc]
+# Linker will be set by cargo-xwin
